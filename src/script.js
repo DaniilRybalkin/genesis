@@ -68,7 +68,7 @@ torus.position.x = -2
 const knot = new THREE.Mesh(new THREE.TorusKnotGeometry(0.5, 0.15, 100, 16),knotmaterial)
 knot.position.y = 2
 
-scene.add(box,sphere,floor,torus,knot)
+scene.add(box,sphere,floor,torus)
 
 //Lights
 const ambientlight = new THREE.AmbientLight(0xffffff, 0.5)
