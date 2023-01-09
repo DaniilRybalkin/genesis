@@ -5,9 +5,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 // import * as dat from 'dat.gui'
 // import imageSource from './box.png'
 // console.log(imageSource)
-// import { Fontloader } from 'three/examples/jsm/loaders/FontLoader.js'
 
-// const Font = new Fontloader()
 
 
 //Cursor
