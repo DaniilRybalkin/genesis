@@ -3,10 +3,6 @@ import * as THREE from 'three'
 import { Clock } from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 // import * as dat from 'dat.gui'
-// import imageSource from './box.png'
-// console.log(imageSource)
-
-
 
 //Cursor
 const cursor = {
@@ -34,7 +30,7 @@ const boxtexture = textureLoader.load('/textures/123.png')
 const matcaptexture = textureLoader.load('/textures/matcaps/8.png')
 const matcaptexture2 = textureLoader.load('/textures/matcaps/3.png')
 
-// Objects
+// Materials
 
 
 const boxmaterial = new THREE.MeshLambertMaterial()
@@ -53,7 +49,7 @@ const knotmaterial = new THREE.MeshMatcapMaterial()
 knotmaterial.matcap = matcaptexture2
 knotmaterial.wireframe = true
 
-
+//Objects
 
 const geometry = new THREE.BoxGeometry(1, 1, 1)
 const box = new THREE.Mesh(geometry, boxmaterial)
